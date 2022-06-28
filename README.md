@@ -16,14 +16,19 @@
 
 This repository provides a mapping table that allows converting between the `STIX 2.1 Course of Action object type that makes use of the Security Playbook extension` and the `MISP Security Playbook object`.
 
-A reference process is as follows:
+A reference conversion process is as follows:
 
-* From STIX 2.1 COA+Security Playbook to MISP:
+* From STIX 2.1 Course of Action object with Security Playbook extension to MISP Security Playbook object:
 <p align="left">
-  <img src="/stix-to-misp-security-playbook.png"/>
+  <img src="/stix-to-misp-translation.png"/>
 </p>
 
-### Mapping Table for STIX 2.1 Course of Action Security Playbook Extension and MISP Security Playbook Object
+* From MISP Security Playbook object to STIX 2.1 Course of Action object with Security Playbook extension:
+<p align="left">
+  <img src="/misp-to-stix-translation.png"/>
+</p>
+
+### Mapping table for STIX 2.1 Security Playbook extension and MISP Security Playbook object
 |STIX Property Name| STIX Data Type| STIX Description | MISP Attribute Name | MISP Data Type | MISP Description |
 | :--- | :--- |:--- | :--- | :--- |:--- |
 |According to the STIX 2.1 specification, an Extension requires the following property: <br></br> **type** (required)|`string`|The value of this property **MUST** be *playbook*.|-|-|-|
