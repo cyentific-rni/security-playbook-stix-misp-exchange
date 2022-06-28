@@ -1,0 +1,1 @@
+# security-playbook-stix-misp-exchange
