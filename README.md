@@ -1,3 +1,10 @@
+# STIX/MISP Security Playbook Object Template Mapping
+
+<p align="center">
+  <img src="/misp-stix.png"/>
+</p>
+
+
 
 |STIX Property Name| STIX Data Type| STIX Description | MISP Attribute Name | MISP Data Type | MISP Description |
 | :--- | :--- |:--- | :--- | :--- |:--- |
