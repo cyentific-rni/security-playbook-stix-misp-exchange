@@ -53,3 +53,6 @@ A reference conversion process is as follows:
 | **playbook_priority** (optional)| `integer` | From 0 to 100, an integer representing the priority of this playbook relative to other defined playbooks. A value of 0 means specifically undefined. Priority values range from 1, the highest priority, to a value of 100, the lowest. | **playbook-priority** (optional)| `text` | From 0 to 100, a value representing the priority of this playbook relative to other defined playbooks. A value of 0 means specifically undefined. Priority values range from 1, the highest priority, to a value of 100, the lowest. |
 |-|-|-| **playbook-file** (requiredOneOf)| `attachment` | The entire playbook file/document in its native format (e.g., CACAO JSON or BPMN). |
 | **playbook_bin** (optional)| `binary` | The entire playbook encoded in base64. Security playbook producers and consumers use this property to share and retrieve playbooks. | **playbook-base64** (requiredOneOf)| `text` | The entire playbook encoded in base64. |
+
+## Acknowledgments
+This research was partially supported by the research project JCOP (Grant No. INEA/CEF/ICT/A2020/2373266), funded by the European Health and Digital Executive Agency through the Connected Europe Facility (CEF) program. 
