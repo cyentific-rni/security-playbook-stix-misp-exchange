@@ -2,7 +2,7 @@
  
 **This repository provides a mapping table and a reference process that allows converting between STIX 2.1 Course of Action objects that make use of the [Security Playbook extension](https://github.com/fovea-research/stix2.1-coa-playbook-extension) and [MISP Security Playbook objects](https://github.com/MISP/misp-objects/blob/main/objects/security-playbook/definition.json).**
 
-Machine-readable Security playbook objects are used to manage, store, and share cybersecurity playbooks and orchestration workflows and can integrate with other machine-readable Cyber Threat Intelligence (CTI) objects to provide additional context, and consequently, support cybersecurity automation.
+Machine-readable `security playbook` objects are used to manage, store, and share cybersecurity playbooks and orchestration workflows and can integrate with other machine-readable Cyber Threat Intelligence (CTI) objects to provide additional context and, consequently, support cybersecurity automation.
 <p align="center">
   <img src="/misp-stix.png"/>
 </p>
