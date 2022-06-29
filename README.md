@@ -1,8 +1,8 @@
-# STIX/MISP Security Playbook Object Template Mapping
+# STIX/MISP Security Playbook Object Conversion
  
-`This repository provides a mapping table and the process that allows converting between the STIX 2.1 Course of Action object type that makes use of the Security Playbook extension and the MISP Security Playbook object.`
+**This repository provides a mapping table and a reference process that allows converting between STIX 2.1 Course of Action objects that make use of the [Security Playbook extension](https://github.com/fovea-research/stix2.1-coa-playbook-extension) and [MISP Security Playbook objects](https://github.com/MISP/misp-objects/blob/main/objects/security-playbook/definition.json).**
 
-`Security playbook objects are used to manage, store, and share cybersecurity playbooks and orchestration workflows and can integrate with other Cyber Threat Intelligence (CTI) objects to provide additional context.`
+Machine-readable Security playbook objects are used to manage, store, and share cybersecurity playbooks and orchestration workflows and can integrate with other machine-readable Cyber Threat Intelligence (CTI) objects to provide additional context, and consequently, support cybersecurity automation.
 <p align="center">
   <img src="/misp-stix.png"/>
 </p>
@@ -14,7 +14,7 @@
 * Sharing cybersecurity playbooks using MISP motivated the development of a security-playbook object and was made available in the official MISP Project GitHub
 (https://github.com/MISP/misp-objects/blob/main/objects/security-playbook/definition.json).
 
-This repository provides a mapping table that allows converting between the `STIX 2.1 Course of Action object type that makes use of the Security Playbook extension` and the `MISP Security Playbook object`.
+This repository provides a mapping table that allows converting between `STIX 2.1 Course of Action objects that make use of the Security Playbook extension` and `MISP Security Playbook objects`. Specifically, the mapping table associates the properties that comprise a security playbook extension using the STIX 2.1 COA SDO and the properties that comprise a MISP security playbook object. In addition we recommend implementers to follow the conversion process below to minimize losing information during the conversion process.
 
 A reference conversion process is as follows:
 
